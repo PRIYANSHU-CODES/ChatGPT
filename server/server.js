@@ -16,7 +16,7 @@ app.use(cors({origin:"*"}));
 app.use(express.json())
 
 app.use((req,res,next)=>{
-    res.setHeader("Access-Control-Allow_Origin","https://open-ai-clone-theta.vercel.app/");
+    res.setHeader("Access-Control-Allow_Origin","https://chat-gpt-eight-gold.vercel.app/");
     res.header("Access-Control-Allow_Origin","Origin, X-Requested-With,Content-Type,Accept");
     next();
 });
