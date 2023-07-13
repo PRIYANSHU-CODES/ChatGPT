@@ -51,8 +51,8 @@ function chatStripe(isAi, value, uniqueId) {
             <div class="chat">
                 <div class="profile">
                     <img 
-                      src=${isAi ? bot : user} 
-                      alt="${isAi ? 'bot' : 'user'}" 
+                    src=${isAi ? bot : user} 
+                    alt="${isAi ? 'bot' : 'user'}" 
                     />
                 </div>
                 <div class="message" id=${uniqueId}>${value}</div>
@@ -121,6 +121,6 @@ form.addEventListener('keyup', (e) => {
 
 const chk = document.getElementById('chk');
 chk.addEventListener('change', () => {
-  document.getElementById('bck').classList.toggle('dark');
-  document.getElementById('frm').classList.toggle('dark');
+    document.getElementById('bck').classList.toggle('dark');
+    document.getElementById('frm').classList.toggle('dark');
 });
